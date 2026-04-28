@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo yum update -y
 sudo yum install -y nginx git
 sudo git clone --branch main https://github.com/TechTB-OpenSource/ttb-test-app.git ~/ttb-test-app
